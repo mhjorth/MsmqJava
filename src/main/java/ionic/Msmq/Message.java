@@ -40,7 +40,7 @@ package ionic.Msmq;
  *
  */
 public class Message {
-    private static String _encoding = "UTF-16LE";
+    private static String _encoding = "UTF-8";
     private static String _utf8 = "UTF-8";
     byte[] _messageBody ;
     String _label ;
